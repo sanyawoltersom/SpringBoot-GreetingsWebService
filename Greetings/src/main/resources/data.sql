@@ -1,0 +1,1 @@
+insert into ausers values(101, 'Navin');

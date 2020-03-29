@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Homepage</title>
+<title>Insert title here</title>
 </head>
 <body>
-<h1>Hello World!</h1>
+Greetings, ${name} !
+
 
 </body>
 </html>
