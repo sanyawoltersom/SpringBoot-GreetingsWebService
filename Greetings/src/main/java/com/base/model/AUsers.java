@@ -9,6 +9,8 @@ public class AUsers {
 	//@GeneratedValue(strategy=GenerationType.AUTO)
 	private int uid;
 	private String uname;
+	private String tech;
+	
 	public int getUid() {
 		return uid;
 	}
@@ -20,6 +22,12 @@ public class AUsers {
 	}
 	public void setUname(String uname) {
 		this.uname = uname;
+	}
+	public String getTech() {
+		return tech;
+	}
+	public void setTech(String tech) {
+		this.tech = tech;
 	}
 	@Override
 	public String toString() {
